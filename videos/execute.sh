@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# PASSING THE PATH TO THE VIDEO
+FILEPATH=$1
+
+# PASSING THE LANGUAGE OF THE ORIGINAL VIDEO
+LANGUAGE=$2
+
+whisper $FILEPATH --language $LANGUAGE --task translate
