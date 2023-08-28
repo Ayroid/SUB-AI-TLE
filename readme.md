@@ -32,7 +32,7 @@ cd home/videos/
 
 ### Step 4: Execute the command to generate subtitles
 ```
-./execute.sh
+./execute.sh /path/to/video language
 ``` 
 ### or
 ```
