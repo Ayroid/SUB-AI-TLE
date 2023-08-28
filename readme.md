@@ -25,7 +25,7 @@ docker build -t sub-ai-tle .
 docker run -it -v ./videos:/home/videos sub-ai-tle
 ```
 
-### Step 3: Move the volume that has been mapped inside the container
+### Step 3: Change directory to home/videos/
 ```
 cd home/videos/
 ``` 
