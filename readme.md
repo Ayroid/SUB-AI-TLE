@@ -3,6 +3,7 @@
 ### An AI-based subtitle generator that makes use of Whisper-AI
 
 ## HOW TO RUN?
+#### NOTE: Docker must be installed and Docker daemon must be running.
 
 ### Step 0: Add the video file to the videos folder
 
